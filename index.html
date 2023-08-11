@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <main class="main">
+        <h1 class="main-title">Inscripción de asignaturas</h1>
+        <div class="consult-button" id="consult-button">Consultar asignaturas</div>
+        <div class="consult-list hidden" id="consult-list">
+            <div class="consult-information">
+                <p class="consult-subtitle">Semestre</p>
+                <div class="consult-info consult-info--button">
+                    <ul id="consult-list" class="consult-lista">
+                        <li id="consult-item" class="consult-item">1</li>
+                        <li class="consult-item">2</li>
+                        <li class="consult-item">3</li>
+                        <li class="consult-item">4</li>
+                        <li class="consult-item">5</li>
+                        <li class="consult-item">6</li>
+                        <li class="consult-item">7</li>
+                        <li class="consult-item">8</li>
+                        <li class="consult-item">9</li>
+                    </ul>
+                </div>
+                <p class="consult-subtitle">Programa académico</p>
+                <div class="consult-info">Ciencias de la computación e inteligencia artificial</div>
+            </div>
+            <div id="consult-description" class="consult-description hidden">
+                <div class="consult-asignature">
+                    <h3 class="consult--code">Código</h3>
+                    <p class="consult-code">CCIA--1</p>
+                    <p class="consult-code">CCIA--2</p>
+                    <p class="consult-code">CCIA--3</p>
+                    <p class="consult-code">CCIA--4</p>
+                    <p class="consult-code">CCIA--5</p>
+                    <p class="consult-code">CCIA--5</p>
+                    <p class="consult-code">CCIA--5</p>
+                    <p class="consult-code">CCIA--8</p>
+                    <p class="consult-code">CCIA--9</p>
+                    <p class="consult-code">CCIA--9</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Asignatura</h3>
+                    <p class="consult-subject">Pensamiento Algorítmico</p>
+                    <p class="consult-subject">Introducción a IA-CC</p>
+                    <p class="consult-subject">Tecnología Inteligente</p>
+                    <p class="consult-subject">Ciencia Computacional Básica</p>
+                    <p class="consult-subject">Cálculo Diferencial</p>
+                    <p class="consult-subject">Cálculo Diferencial</p>
+                    <p class="consult-subject">Cálculo Diferencial</p>
+                    <p class="consult-subject">Organización del Estado Colombiano</p>
+                    <p class="consult-subject">Gramática, Lectura y Escritura Académica I</p>
+                    <p class="consult-subject">Gramática, Lectura y Escritura Académica I</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Prerrequisitos</h3>                    
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Salón y horario</h3>
+                    <p class="consult-classroom">F301 -- Lunes y Miercoles 9am:11am</p>
+                    <p class="consult-classroom">D402 -- Martes 11am:1pm</p>
+                    <p class="consult-classroom">F305 -- Jueves 9am:11am</p>
+                    <p class="consult-classroom">H201 -- Lunes y Miercoles 11am:1pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">D409 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 1pm:3pm</p>
+                    <p class="consult-classroom">F701 -- Lunes 2pm:4pm</p>
+                    <p class="consult-classroom">Modalidad virtual</p>
+                    <p class="consult-classroom">Modalidad virtual</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Cupos</h3>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                </div>
+                <div class="consult-credits">
+                    <h3>Creditos</h3>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">2</p>
+                    <p class="consult-numC">2</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">2</p>
+                    <p class="consult-numC">2</p>
+                    <p class="consult-numC">2</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Inscribir</h3>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Invalidar</h3>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                </div>
+            </div>
+            <div id="consult-description" class="consult-description hidden">
+                <div class="consult-asignature">
+                    <h3 class="consult--code">Código</h3>
+                    <p class="consult-code">CCIA--10</p>
+                    <p class="consult-code">CCIA--11</p>
+                    <p class="consult-code">CCIA--12</p>
+                    <p class="consult-code">CCIA--13</p>
+                    <p class="consult-code">CCIA--14</p>
+                    <p class="consult-code">CCIA--14</p>
+                    <p class="consult-code">CCIA--16</p>
+                    <p class="consult-code">CCIA--16</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Asignatura</h3>
+                    <p class="consult-subject">Fundamentos de Diseño de Software</p>
+                    <p class="consult-subject">Cibernética y Sistemas Inteligentes</p>
+                    <p class="consult-subject">Física Mecánica y Laboratorio</p>
+                    <p class="consult-subject">Álgebra Lineal Aplicada</p>
+                    <p class="consult-subject">Cálculo Integral</p>
+                    <p class="consult-subject">Cálculo Integral</p>
+                    <p class="consult-subject">Gramática, Lectura y Escritura Académica II</p>
+                    <p class="consult-subject">Gramática, Lectura y Escritura Académica II</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Prerrequisitos</h3>                    
+                    <p class="consult-prerequisites">CCIA--1</p>
+                    <p class="consult-prerequisites">CCIA--2</p>
+                    <p class="consult-prerequisites">CCIA--5</p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites">CCIA--5</p>
+                    <p class="consult-prerequisites">CCIA--5</p>
+                    <p class="consult-prerequisites">CCIA--9</p>
+                    <p class="consult-prerequisites">CCIA--9</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Salón y horario</h3>
+                    <p class="consult-classroom">D402 -- Martes 11am:1pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">F305 -- Jueves 9am:11am</p>
+                    <p class="consult-classroom">B302 -- Lunes y Viernes 9am:11am</p>
+                    <p class="consult-classroom">B302 -- Lunes y Miercoles 3pm:5pm</p>
+                    <p class="consult-classroom">H201 -- Lunes y Miercoles 11am:1pm</p>
+                    <p class="consult-classroom">F701 -- Lunes 2pm:4pm</p>
+                    <p class="consult-classroom">A501 -- Jueves 11am:1pm</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Cupos</h3>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                </div>
+                <div class="consult-credits">
+                    <h3>Creditos</h3>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">2</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">2</p>
+                    <p class="consult-numC">2</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Inscribir</h3>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Invalidar</h3>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                </div>
+            </div>
+            <div id="consult-description" class="consult-description hidden">
+                <div class="consult-asignature">
+                    <h3 class="consult--code">Código</h3>
+                    <p class="consult-code">CCIA--18</p>
+                    <p class="consult-code">CCIA--19</p>
+                    <p class="consult-code">CCIA--20</p>
+                    <p class="consult-code">CCIA--21</p>
+                    <p class="consult-code">CCIA--21</p>
+                    <p class="consult-code">CCIA--22</p>
+                    <p class="consult-code">CCIA--22</p>
+                    <p class="consult-code">CCIA--23</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Asignatura</h3>
+                    <p class="consult-subject">Estructura de Datos Lineales</p>
+                    <p class="consult-subject">Paradigmas de Programación</p>
+                    <p class="consult-subject">Arquitectura de Computadores</p>
+                    <p class="consult-subject">Física Electromagnética y Laboratorio</p>
+                    <p class="consult-subject">Física Electromagnética y Laboratorio</p>
+                    <p class="consult-subject">Modelación Matemática para Ingeniería (ecuaciones diferenciales)</p>
+                    <p class="consult-subject">Modelación Matemática para Ingeniería (ecuaciones diferenciales)</p>
+                    <p class="consult-subject">Cultura Religiosa</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Prerrequisitos</h3>                    
+                    <p class="consult-prerequisites">CCIA--10</p>
+                    <p class="consult-prerequisites">CCIA--10</p>
+                    <p class="consult-prerequisites">CCIA--4</p>
+                    <p class="consult-prerequisites">CCIA--12</p>
+                    <p class="consult-prerequisites">CCIA--12</p>
+                    <p class="consult-prerequisites">CCIA--14</p>
+                    <p class="consult-prerequisites">CCIA--14</p>
+                    <p class="consult-prerequisites">CCOA--16</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Salón y horario</h3>
+                    <p class="consult-classroom">F301 -- Lunes y Miercoles 9am:11am</p>
+                    <p class="consult-classroom">D402 -- Martes 11am:1pm</p>
+                    <p class="consult-classroom">F305 -- Jueves 9am:11am</p>
+                    <p class="consult-classroom">H201 -- Lunes y Miercoles 11am:1pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">D409 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 1pm:3pm</p>
+                    <p class="consult-classroom">F701 -- Lunes 2pm:4pm</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Cupos</h3>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                </div>
+                <div class="consult-credits">
+                    <h3>Creditos</h3>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">2</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Inscribir</h3>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                </div>
+                 <div class="consult-asignature">
+                    <h3>Invalidar</h3>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                </div>   
+            </div>
+            <div id="consult-description" class="consult-description hidden">
+                <div class="consult-asignature">
+                    <h3 class="consult--code">Código</h3>
+                    <p class="consult-code">CCIA--24</p>
+                    <p class="consult-code">CCIA--25</p>
+                    <p class="consult-code">CCIA--26</p>
+                    <p class="consult-code">CCIA--27</p>
+                    <p class="consult-code">CCIA--27</p>
+                    <p class="consult-code">CCIA--28</p>
+                    <p class="consult-code">CCIA--29</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Asignatura</h3>
+                    <p class="consult-subject">Estructura de Datos No Lineales</p>
+                    <p class="consult-subject">Análisis de Algoritmos</p>
+                    <p class="consult-subject">Redes de Computación</p>
+                    <p class="consult-subject">Ciencia Computacional Intermedia</p>
+                    <p class="consult-subject">Ciencia Computacional Intermedia</p>
+                    <p class="consult-subject">Optativa I</p>
+                    <p class="consult-subject">Cátedra Rodrigo Noguera Laborde</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Prerrequisitos</h3>                    
+                    <p class="consult-prerequisites">CCIA--18</p>
+                    <p class="consult-prerequisites">CCIA--18, CCIA--19</p>
+                    <p class="consult-prerequisites">CCIA--20</p>
+                    <p class="consult-prerequisites">CCIA--20</p>
+                    <p class="consult-prerequisites">CCIA--20</p>
+                    <p class="consult-prerequisites">CCIA--20</p>
+                    <p class="consult-prerequisites">CCIA--16</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Salón y horario</h3>
+                    <p class="consult-classroom">F301 -- Lunes y Miercoles 9am:11am</p>
+                    <p class="consult-classroom">D402 -- Martes 11am:1pm</p>
+                    <p class="consult-classroom">F305 -- Jueves 9am:11am</p>
+                    <p class="consult-classroom">H201 -- Lunes y Miercoles 11am:1pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">D409 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 1pm:3pm</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Cupos</h3>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                </div>
+                <div class="consult-credits">
+                    <h3>Creditos</h3>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">2</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Inscribir</h3>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Invalidar</h3>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                </div>    
+            </div>
+            <div id="consult-description" class="consult-description hidden">
+                <div class="consult-asignature">
+                    <h3 class="consult--code">Código</h3>
+                    <p class="consult-code">CCIA--30</p>
+                    <p class="consult-code">CCIA--31</p>
+                    <p class="consult-code">CCIA--32</p>
+                    <p class="consult-code">CCIA--33</p>
+                    <p class="consult-code">CCIA--34</p>
+                    <p class="consult-code">CCIA--34</p>
+                    <p class="consult-code">CCIA--35</p>
+                    <p class="consult-code">CCIA--35</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Asignatura</h3>
+                    <p class="consult-subject">Bases de Datos</p>
+                    <p class="consult-subject">Lenguajes de Programación y Transducción</p>
+                    <p class="consult-subject">Sistemas Operativos</p>
+                    <p class="consult-subject">Ciencia Computacional Avanzada</p>
+                    <p class="consult-subject">Optativa II</p>
+                    <p class="consult-subject">Optativa II</p>
+                    <p class="consult-subject">Electiva Humanidades</p>
+                    <p class="consult-subject">Electiva Humanidades</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Prerrequisitos</h3>                    
+                    <p class="consult-prerequisites">CCIA--24</p>
+                    <p class="consult-prerequisites">CCIA--25</p>
+                    <p class="consult-prerequisites">CCIA--26</p>
+                    <p class="consult-prerequisites">CCIA--27</p>
+                    <p class="consult-prerequisites">CCIA--28</p>
+                    <p class="consult-prerequisites">CCIA--28</p>
+                    <p class="consult-prerequisites">CCIA--29</p>
+                    <p class="consult-prerequisites">CCIA--29</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Salón y horario</h3>
+                    <p class="consult-classroom">F301 -- Lunes y Miercoles 9am:11am</p>
+                    <p class="consult-classroom">D402 -- Martes 11am:1pm</p>
+                    <p class="consult-classroom">F305 -- Jueves 9am:11am</p>
+                    <p class="consult-classroom">H201 -- Lunes y Miercoles 11am:1pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">D409 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 1pm:3pm</p>
+                    <p class="consult-classroom">F701 -- Lunes 2pm:4pm</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Cupos</h3>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                </div>
+                <div class="consult-credits">
+                    <h3>Creditos</h3>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">2</p>
+                    <p class="consult-numC">2</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Inscribir</h3>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                </div>
+                 <div class="consult-asignature">
+                    <h3>Invalidar</h3>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                </div>   
+            </div>
+            <div id="consult-description" class="consult-description hidden">
+                <div class="consult-asignature">
+                    <h3 class="consult--code">Código</h3>
+                    <p class="consult-code">CCIA--36</p>
+                    <p class="consult-code">CCIA--37</p>
+                    <p class="consult-code">CCIA--38</p>
+                    <p class="consult-code">CCIA--39</p>
+                    <p class="consult-code">CCIA--40</p>
+                    <p class="consult-code">CCIA--41</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Asignatura</h3>
+                    <p class="consult-subject">Ingeniería de Software</p>
+                    <p class="consult-subject">Patrones de Diseño de Software</p>
+                    <p class="consult-subject">Computación Paralela y Distribuida</p>
+                    <p class="consult-subject">Inteligencia Artificial</p>
+                    <p class="consult-subject">Dirección y Gestión de Proyectos</p>
+                    <p class="consult-subject">Optativa III</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Prerrequisitos</h3>                    
+                    <p class="consult-prerequisites">CCIA--30</p>
+                    <p class="consult-prerequisites">CCIA--31</p>
+                    <p class="consult-prerequisites">CCIA--32</p>
+                    <p class="consult-prerequisites">CCIA--33</p>
+                    <p class="consult-prerequisites">CCIA--34</p>
+                    <p class="consult-prerequisites">CCIA--35</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Salón y horario</h3>
+                    <p class="consult-classroom">F301 -- Lunes y Miercoles 9am:11am</p>
+                    <p class="consult-classroom">D402 -- Martes 11am:1pm</p>
+                    <p class="consult-classroom">F305 -- Jueves 9am:11am</p>
+                    <p class="consult-classroom">H201 -- Lunes y Miercoles 11am:1pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">D409 -- Martes y Jueves 3pm:5pm</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Cupos</h3>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                </div>
+                <div class="consult-credits">
+                    <h3>Creditos</h3>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Inscribir</h3>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                </div>
+                 <div class="consult-asignature">
+                    <h3>Invalidar</h3>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                </div>   
+            </div>
+            <div id="consult-description" class="consult-description hidden">
+                <div class="consult-asignature">
+                    <h3 class="consult--code">Código</h3>
+                    <p class="consult-code">CCIA--42</p>
+                    <p class="consult-code">CCIA--43</p>
+                    <p class="consult-code">CCIA--44</p>
+                    <p class="consult-code">CCIA--45</p>
+                    <p class="consult-code">CCIA--46</p>
+                    <p class="consult-code">CCIA--47</p>
+                    <p class="consult-code">CCIA--48</p>
+                    <p class="consult-code">CCIA--48</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Asignatura</h3>
+                    <p class="consult-subject">Arquitectura de Software</p>
+                    <p class="consult-subject">Seminario de I+D+I</p>
+                    <p class="consult-subject">Big Data e Ingeniería de Datos</p>
+                    <p class="consult-subject">Seguridad de la Información</p>
+                    <p class="consult-subject">Aprendizaje de Máquina</p>
+                    <p class="consult-subject">Optativa IV</p>
+                    <p class="consult-subject">Electiva Humanidades II</p>
+                    <p class="consult-subject">Electiva Humanidades II</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Prerrequisitos</h3>                    
+                    <p class="consult-prerequisites">CCIA--36</p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites">CCIA--33</p>
+                    <p class="consult-prerequisites">CCIA--37</p>
+                    <p class="consult-prerequisites">CCIA--38</p>
+                    <p class="consult-prerequisites">CCIA--39</p>
+                    <p class="consult-prerequisites">CCIA--41</p>
+                    <p class="consult-prerequisites">CCIA--41</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Salón y horario</h3>
+                    <p class="consult-classroom">F301 -- Lunes y Miercoles 9am:11am</p>
+                    <p class="consult-classroom">D402 -- Martes 11am:1pm</p>
+                    <p class="consult-classroom">F305 -- Jueves 9am:11am</p>
+                    <p class="consult-classroom">H201 -- Lunes y Miercoles 11am:1pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">D409 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 1pm:3pm</p>
+                    <p class="consult-classroom">F701 -- Lunes 2pm:4pm</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Cupos</h3>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                </div>
+                <div class="consult-credits">
+                    <h3>Creditos</h3>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">1</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">2</p>
+                    <p class="consult-numC">2</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Inscribir</h3>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Invalidar</h3>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                </div>    
+            </div>
+            <div id="consult-description" class="consult-description hidden">
+                <div class="consult-asignature">
+                    <h3 class="consult--code">Código</h3>
+                    <p class="consult-code">CCIA--49</p>
+                    <p class="consult-code">CCIA--50</p>
+                    <p class="consult-code">CCIA--51</p>
+                    <p class="consult-code">CCIA--52</p>
+                    <p class="consult-code">CCIA--53</p>
+                    <p class="consult-code">CCIA--54</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Asignatura</h3>
+                    <p class="consult-subject">Electiva I</p>
+                    <p class="consult-subject">Electiva II</p>
+                    <p class="consult-subject">Electiva III</p>
+                    <p class="consult-subject">Diseño Creativo</p>
+                    <p class="consult-subject">Optativa V</p>
+                    <p class="consult-subject">Ética y Responsabilidad Social</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Prerrequisitos</h3>                    
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites">CCIA--45</p>
+                    <p class="consult-prerequisites">CCIA--46</p>
+                    <p class="consult-prerequisites"></p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Salón y horario</h3>
+                    <p class="consult-classroom">F301 -- Lunes y Miercoles 9am:11am</p>
+                    <p class="consult-classroom">D402 -- Martes 11am:1pm</p>
+                    <p class="consult-classroom">F305 -- Jueves 9am:11am</p>
+                    <p class="consult-classroom">H201 -- Lunes y Miercoles 11am:1pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">D409 -- Martes y Jueves 3pm:5pm</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Cupos</h3>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                </div>
+                <div class="consult-credits">
+                    <h3>Creditos</h3>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">2</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Inscribir</h3>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Invalidar</h3>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                </div>    
+            </div>
+            <div id="consult-description" class="consult-description hidden">
+                <div class="consult-asignature">
+                    <h3 class="consult--code">Código</h3>
+                    <p class="consult-code">CCIA--55</p>
+                    <p class="consult-code">CCIA--56</p>
+                    <p class="consult-code">CCIA--57</p>
+                    <p class="consult-code">CCIA--58</p>
+                    <p class="consult-code">CCIA--59</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Asignatura</h3>
+                    <p class="consult-subject">Electiva IV</p>
+                    <p class="consult-subject">Electiva V</p>
+                    <p class="consult-subject">Electiva VI</p>
+                    <p class="consult-subject">Opción de Grado</p>
+                    <p class="consult-subject">Optativa VI</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Prerrequisitos</h3>                    
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites"></p>
+                    <p class="consult-prerequisites">CCIA--53</p>
+                    <p class="consult-prerequisites">CCIA--54</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Salón y horario</h3>
+                    <p class="consult-classroom">F301 -- Lunes y Miercoles 9am:11am</p>
+                    <p class="consult-classroom">D402 -- Martes 11am:1pm</p>
+                    <p class="consult-classroom">F305 -- Jueves 9am:11am</p>
+                    <p class="consult-classroom">H201 -- Lunes y Miercoles 11am:1pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 3pm:5pm</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Cupos</h3>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                    <p class="consult-space">30</p>
+                </div>
+                <div class="consult-credits">
+                    <h3>Creditos</h3>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">6</p>
+                    <p class="consult-numC">3</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Inscribir</h3>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                    <p class="consult-inscribe"></p>
+                </div>
+                    
+                <div class="consult-asignature">
+                    <h3>Invalidar</h3>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                    <p class="consult-rem-item"></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="status-button" id="status-button">Ver mis asignaturas</div>
+        <div class="status-list hidden" id="status-list">
+            <div class="consult-signature">
+                <div class="consult-asignature">
+                    <h3 class="consult--code">Código</h3>
+                    <p class="consult-code">CCIA--1</p>
+                    <p class="consult-code">CCIA--2</p>
+                    <p class="consult-code">CCIA--3</p>
+                    <p class="consult-code">CCIA--4</p>
+                    <p class="consult-code">CCIA--5</p>
+                    <p class="consult-code">CCIA--8</p>
+                    <p class="consult-code">CCIA--9</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Asignatura</h3>
+                    <p class="consult-subject">Pensamiento Algorítmico</p>
+                    <p class="consult-subject">Introducción a IA-CC</p>
+                    <p class="consult-subject">Tecnología Inteligente</p>
+                    <p class="consult-subject">Ciencia Computacional Básica</p>
+                    <p class="consult-subject">Cálculo Diferencial</p>
+                    <p class="consult-subject">Organización del Estado Colombiano</p>
+                    <p class="consult-subject">Gramática, Lectura y Escritura Académica I</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Salón y horario</h3>
+                    <p class="consult-classroom">F301 -- Lunes y Miercoles 9am:11am</p>
+                    <p class="consult-classroom">D402 -- Martes 11am:1pm</p>
+                    <p class="consult-classroom">F305 -- Jueves 9am:11am</p>
+                    <p class="consult-classroom">H201 -- Lunes y Miercoles 11am:1pm</p>
+                    <p class="consult-classroom">F501 -- Martes y Jueves 3pm:5pm</p>
+                    <p class="consult-classroom">F701 -- Lunes 2pm:4pm</p>
+                    <p class="consult-classroom">Modalidad virtual</p>
+                </div>
+                <div class="consult-asignature">
+                    <h3>Cupos</h3>
+                    <p class="consult-space">29</p>
+                    <p class="consult-space">29</p>
+                    <p class="consult-space">29</p>
+                    <p class="consult-space">29</p>
+                    <p class="consult-space">29</p>
+                    <p class="consult-space">29</p>
+                    <p class="consult-space">29</p>
+                </div>
+                <div class="consult-credits">
+                    <h3>Creditos</h3>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">2</p>
+                    <p class="consult-numC">2</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">3</p>
+                    <p class="consult-numC">2</p>
+                    <p class="consult-numC">2</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="code.js"></script>
+</body>
+</html>
